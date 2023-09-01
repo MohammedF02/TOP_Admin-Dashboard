@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,84 @@
     <title>Adming Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <header>
+        <div class="search-div">
+            <label for="search-field"><img src="images/icons8-search.svg" alt="Search Icon"></label>
+            <input type="text" id="search-field" class="search-input">
+        </div>
+        <div class="profile-div">
+            <img src="images/bell.svg" alt="Notification" class="bell-image" width="30px" height="30px">
+            <img src="images/cat.jpg" alt="profile logo" class="user-image">
+            <h2 class="username">Ginger Cat</h2>
+        </div>
+        <div class="welcome-div">
+            <img src="images/cat.jpg" alt="profile logo" class="welcome-user-image">
+            <p class="hi">Hi there,</p>
+            <p class="welcome-username">Ginger Cat (@Ginger)</p>
+        </div>
+        <div class="buttons-div">
+            <button class="header-button">New</button>
+            <button class="header-button">Upload</button>
+            <button class="header-button">Share</button>
+        </div>
+    </header>
+    <nav class="sidebar">
+        <div class="logo">
+            <img src="/images/view-dashboard.svg" alt="Dashboard logo">
+            <h3>Dashboard</h3>
+        </div>
+        <div class="first-links">
+            <ul>
+                <li>
+                    <img src="/images/home.svg" alt="Home">
+                    <p>Home</p>
+                </li>
+                <li>
+                    <img src="/images/profile.svg" alt="Profile">
+                    <p>Profile</p>
+                </li>
+                <li>
+                    <img src="/images/message-reply.svg" alt="Messages">
+                    <p>Messages</p>
+                </li>
+                <li>
+                    <img src="/images/history.svg" alt="History">
+                    <p>History</p>
+                </li>
+                <li>
+                    <img src="/images/tasks.svg" alt="Tasks">
+                    <p>Tasks</p>
+                </li>
+                <li>
+                    <img src="/images/community.svg" alt="Communities">
+                    <p>Communities</p>
+                </li>
+            </ul>
+        </div>
+        <div class="second-links">
+            <ul>
+                <li>
+                    <img src="/images/cog.svg" alt="Settings">
+                    <p>Settings</p>
+                </li>
+                <li>
+                    <img src="/images/support.svg" alt="Support">
+                    <p>Support</p>
+                </li>
+                <li>
+                    <img src="/images/privacy.svg" alt="Privacy">
+                    <p>Privacy</p>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="main-content">
+        <div class="projects">
+            <h3>Your projects</h3>
+        </div>
+    </main>
 </body>
+
 </html>
